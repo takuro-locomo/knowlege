@@ -170,3 +170,20 @@ CLAUDE.mdを読んで、/ブログ 脱毛 夏向け を実行して
 CLAUDE.mdを読んで、/SNS ピコシュア 40代女性 を実行して
 CLAUDE.mdを読んで、/説明書 レーザー後アフターケア を実行して
 ```
+
+---
+
+## 起動方法
+
+### 毎回の起動コマンド（ターミナルで実行）
+```
+cd ~/Google\ Drive/マイドライブ/ueno-knowledge && claude --dangerously-skip-permissions
+```
+
+### 再開時の一言
+```
+CLAUDE.mdを読んで、前回の続きから作業して
+```
+
+※ 必ずueno-knowledgeフォルダから起動すること
+※ --dangerously-skip-permissionsで確認ダイアログをスキップ
